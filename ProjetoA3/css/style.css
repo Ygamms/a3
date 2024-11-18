@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+ body {
+    background-color: #E3E3E3;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* para modificação geral do botôes */
+header .btn-grupo button, .hero-site button{
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+   transition: .05s;
+}
+/* para modificação geral do botôes */
+/* estilo do header do cabeçalho */
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+max-width: 40px;
+}
+/* para modificar o menu que está com js */
+header.rolar{
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #00000062;
+}
+header.rolar .menu-desktop nav ul li a{
+    color: #000;
+}
+header.rolar .btn-grupo button:hover{
+    background-color: #000;
+    color: #fff;
+}
+header.rolar .btn-grupo button{
+    border: 1px solid #000;
+    color: #000;
+}
+header .menu-desktop nav ul{
+list-style-type: none;
+}
+header .menu-desktop nav ul a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+ .menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+/* para modificar o menu que está com js */
+header .menu-desktop nav ul{
+list-style-type: none;
+}
+header .menu-desktop nav ul a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+ .menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+/* exclusivo para o botão do cabeçalho */
+header .btn-grupo button{
+    width: 140px;
+    height: 50px;
+}
+/* exclusivo para o botão do cabeçalho */
+header .btn-grupo button:hover, .hero-site button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* Estilo do hero */
+section.hero-site{
+    height: 100vh;
+    background-image: url(../imagem/ilustracao-de-oculos-de-sol-de-design-plano-thug-life_23-2150209328.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+}
+.hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hero-site .txt-hero h1{
+   font-size: 4em;
+   line-height: 70px;
+   font-weight: 200;
+}
+.hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 800;
+}
+.hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.hero-site .txt-hero p span{
+    display: block;
+}
+.hero-site button{
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+/* estilo das fases */
+section.fases{
+    padding: 80px 0;
+}
+.fases .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+.fases .itens-container .img-itens img{
+    max-width: 420px;
+}
+.fases .itens-container txt-itens h3{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+/* Estilo dos botoes da estrutura do projeto*/
+section.estrutura{
+background-color: #fff;
+padding: 80px 0;
+}
+.txt-estrutura, .icons-estrutura{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+   vertical-align: middle;
+}
+.estrutura .txt-estrutura h3{
+    font-size: 2.5em;
+}
+.estrutura .icons-estrutura a{
+    text-decoration: none;
+}
+.estrutura .icons-estrutura button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.estrutura .icons-estrutura button i{
+    font-size: 24px;
+}
+.estrutura .icons-estrutura button:hover{
+    background-color: #000;
+}
+.estrutura .icons-estrutura button:hover i, .estrutura .icons-estrutura button:hover p {
+    color: #fff;
+}
